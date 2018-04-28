@@ -5,10 +5,5 @@ print(temp,'yes')
 print(temp.strip(),'yes',sep = ',')
 
 
-temp2 = '  O'
-temp3 = '\tU\n'
-print(temp2,temp3)
-print(temp2.strip(),temp3.strip(),sep=',')
-
 print('before strip, the length of temp is {}\
 ,after strip, the length of temp is {}'.format(len(temp),len(temp.strip())))
